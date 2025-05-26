@@ -9,8 +9,7 @@ int main()
 
     ifstream in;
 
-    in.open(R"(C:\Users\Вячеслав\Desktop\abc.txt)");  // Убран ios::app
-
+    in.open("abc.txt");
     if (!in.is_open()) {
         cout << "Ошибка открытия файла!" << endl;
         return 1;
